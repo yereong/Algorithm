@@ -15,11 +15,6 @@ function solution(s, skip, index) {
             }
             
         }
-        while(skipList.includes(char)){char+=1;
-            if(char > 'z'.charCodeAt(0)){      
-                char = 'a'.charCodeAt(0);}
-            
-        }
         
         list.push(String.fromCharCode(char))
     }
